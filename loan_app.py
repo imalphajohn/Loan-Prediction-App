@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
 
 # Load the saved model
 with open('loan_approval_model.pkl', 'rb') as file:
